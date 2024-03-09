@@ -28,21 +28,16 @@ const RoomList = (
     return (
         <div className='room-list'>
             <span className='room-list-name'>
-                {roomID.toString()}<br />
-                {roomName}<br />
-                {roomLocation}<br />
-                {roomPrice.toString()}<br />
-                {roomCheckIn.toString()}<br />
-                {roomCheckOut.toString()}<br />
-                {roomRating.toString()}<br />
-                {imageURL}
                 <Image
                     src={imageURL}
                     alt={roomName}
-                    width={750}
-                    height={700}
+                    width={600}
+                    height={550}
                 />
-                <br /><br />
+                {roomName},
+                {roomLocation}<br />
+                ${roomPrice.toString()} per month<br />
+                Rate: {roomRating.toString()}<br />
             </span>
         </div>
     )

@@ -26,6 +26,26 @@ function App(){
             roomRating: 4,
             imageURL: '/images/room2.jpg'
         },
+        {
+            roomID: 3,
+            roomName: 'One Bedroom',
+            roomLocation: 'Québec',
+            roomPrice: 1000,
+            roomCheckIn:1/27/2024,
+            roomCheckOut: 2/27/2024,
+            roomRating: 5,
+            imageURL: '/images/room3.jpg'
+        },
+        {
+            roomID: 4,
+            roomName: 'Suite',
+            roomLocation: 'Montréal',
+            roomPrice: 750,
+            roomCheckIn:1/27/2024,
+            roomCheckOut: 2/27/2024,
+            roomRating: 4,
+            imageURL: '/images/room4.jpeg'
+        },
     ]);
 
     return (
