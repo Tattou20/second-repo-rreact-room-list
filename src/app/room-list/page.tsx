@@ -53,6 +53,7 @@ function App(){
             {roomList
                 .map((r) => (
                     <RoomList
+                    key={r.roomID}
                         roomID={r.roomID}
                         roomName={r.roomName}
                         roomLocation={r.roomLocation}
